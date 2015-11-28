@@ -247,7 +247,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="#">
-            <img src="img/bflogo_small_bw.png" alt="BitFormations Inc. Logo" />
+            <img id="bfi_logo" src="img/bflogo_small_bw.png" alt="BitFormations Inc. Logo" />
           </a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
@@ -582,8 +582,10 @@
         $(window).scroll(function() {
           if ($(document).scrollTop() > 50) {
             $('nav').addClass('shrink');
+            $('#bfi_logo').attr('src', 'img/bflogo_small.png');
           } else {
             $('nav').removeClass('shrink');
+            $('#bfi_logo').attr('src', 'img/bflogo_small_bw.png');
           }
         });
 
