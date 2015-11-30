@@ -1,4 +1,4 @@
- body {
+body {
   font-family: "Open Sans", sans-serif;
   line-height: 2.4em;
   font-size:14pt;
@@ -6,8 +6,8 @@
 }
 
 .navbar.transparent.navbar-inverse  {
- background: rgba(255,255,255,0.3);
- border-color:rgba(0,0,0,0.0);
+  background: rgba(255,255,255,0.3);
+  border-color:rgba(0,0,0,0.0);
 }
 
 .intro-text {
@@ -24,10 +24,10 @@
 }
 
 .logo-inner {
- background-color:rgba(255,255,255,0.5);
- border-radius:15%;
- text-align:center;
- border: 5px solid rgba(128,128,128,0.2);
+  background-color:rgba(255,255,255,0.5);
+  border-radius:15%;
+  text-align:center;
+  border: 5px solid rgba(128,128,128,0.2);
 }
 
 #header_iam {
@@ -53,12 +53,10 @@
 }
 .navbar-brand>img {
   width:310px;
-  /* filter:grayscale(100%); */
 }
 
 .navbar.shrink .navbar-brand>img {
   width:225px;
-  /* filter:grayscale(0%); */
 }
 
 .navbar.shrink  {
@@ -70,7 +68,6 @@
   border-bottom: 1px solid rgba(0,0,0,0.1);
   border-top: 3px solid rgb(58,194,207);
 }
-
 
 #contact_btn {
   color:white;
@@ -162,7 +159,7 @@
   height:275px;
   border-radius: 50%;
   border: 12px solid rgba(58,194,207,0.9);
-  background-position: 45% 15%;
+  background-position: 40% 45%;
   background-color:rgba(255,255,255,0.8);
   background-size: 350px auto;
 }
