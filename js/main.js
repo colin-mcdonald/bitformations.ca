@@ -14,10 +14,10 @@
 $(window).scroll(function() {
   if ($(document).scrollTop() > 50) {
     $('nav').addClass('shrink');
-    $('#bfi_logo').attr('src', 'img/bflogo_small.png');
+    $('#bfi_logo').attr('src', 'img/bflogo_small.gif');
   } else {
     $('nav').removeClass('shrink');
-    $('#bfi_logo').attr('src', 'img/bflogo_small_bw.png');
+    $('#bfi_logo').attr('src', 'img/bflogo_small_bw.gif');
   }
 });
 
