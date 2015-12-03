@@ -195,4 +195,5 @@ body {
   #header_iam { display: none; }
   .fullscreen-bg__video { display: none; }
   .navbar.shrink { display:none; }
+  #intro_ctr { margin-top:250px;  margin-bottom:250px; }
 }
