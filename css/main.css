@@ -189,11 +189,20 @@ body {
   display:none;
 }
 
+#smartphone-logo {
+  width:350px;
+  margin:30px;
+  display:none;
+}
+
+#intro_ctr { margin-top:350px; margin-bottom:175px; }
+
 @media only screen and (max-width: 760px) {
   .fullscreen-bg { background-image:url('/img/background-vid-poster.gif');  }
   .typed_text_ctr { display: none; }
   #header_iam { display: none; }
   .fullscreen-bg__video { display: none; }
-  .navbar.shrink { display:none; }
-  #intro_ctr { margin-top:250px;  margin-bottom:250px; }
+  .navbar { display:none; }
+  #intro_ctr { margin-top:175px;  margin-bottom:250px; }
+  #smartphone-logo { display:block; }
 }
