@@ -11,23 +11,17 @@
   };
 }(jQuery, window));
 
-$(window).scroll(function() {
-  if ($(document).scrollTop() > 50) {
-    $('nav').addClass('shrink');
-    $('#bfi_logo').attr('src', 'img/bflogo_small.gif');
-  } else {
-    $('nav').removeClass('shrink');
-    $('#bfi_logo').attr('src', 'img/bflogo_small_bw.gif');
-  }
-});
-
 $(function() {
   $(".skillbar").inViewport(function(px){
-    if(px) $('.skillbar').each(function(){
+    if(px) {
+     $('.skillbar').each(function(){
       $(this).find('.skillbar-bar').animate({
-        width:$(this).attr('data-percent')
-      },3000);
+        width: $(this).attr('data-percent')
+      }, 3000)
     });
+     $(".skillbar").inViewport(null);
+      $(win).on("resize scroll", null);
+   }
   });          
 });
 

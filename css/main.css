@@ -3,6 +3,7 @@ body {
   line-height: 2.4em;
   font-size:14pt;
   background-image: url('/img/pattern.png');
+  background-color:white;
 }
 
 .intro-text {
@@ -192,10 +193,22 @@ body {
 #smartphone-logo {
   width:350px;
   margin:30px;
-  display:none;
+  display:block;
 }
 
 #intro_ctr { margin-top:350px; margin-bottom:175px; }
+
+.typed_text_ctr {
+  white-space:pre;
+  margin-top:50px;
+  height:250px;
+  vertical-align:center;
+}
+
+#typed_text {
+  background-color:rgba(255,255,255,0.7);
+  vertical-align:center;
+}
 
 @media only screen and (max-width: 760px) {
   .fullscreen-bg { background-image:url('/img/background-vid-poster.gif');  }
