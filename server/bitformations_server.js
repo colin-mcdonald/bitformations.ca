@@ -46,10 +46,9 @@ app.post('/post_contact_form', function (req, res) {
         message = req.body.message,
         recaptcha = req.body['g-recaptcha-response']
     
-        axios.post('https://www.google.com/recaptcha/api/siteverify', {
-            secret: '6Le0qoYUAAAAACQduK-E0KVvCxXK-2sNOJW14Ywu',
-            response: recaptcha
-          })
+        var postURL = 'https://www.google.com/recaptcha/api/siteverify?secret=6Le0qoYUAAAAACQduK-E0KVvCxXK-2sNOJW14Ywu&response=' + recaptcha.toString()
+
+        axios.post(postURL, { })
           .then(function (response) {
             console.log(response);
 
