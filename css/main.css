@@ -219,3 +219,7 @@ body {
   #intro_ctr { margin-top:175px;  margin-bottom:250px; }
   #smartphone-logo { display:block; }
 }
+
+.g-recaptcha {
+  display: inline-block;
+}
